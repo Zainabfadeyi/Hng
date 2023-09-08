@@ -30,8 +30,8 @@ async def get_info(slack_name: str, track_name: str):
         "current_day_of_week": current_day_of_week,
         "current_utc_time": current_utc_time_str,
         "track": track_name,
-        "file_github_url": file_github_url,
         "source_code_github_url": source_code_github_url,
+        "file_github_url": file_github_url,
         "status_code": 200
     }
 
