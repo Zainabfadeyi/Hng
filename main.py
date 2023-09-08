@@ -4,7 +4,7 @@ import requests
 
 app = FastAPI()
 
-@app.get("/info/")
+@app.get("/api")
 async def get_info(slack_name: str, track_name: str):
     # Validate slack_name and track_name
     if not slack_name or not track_name:
