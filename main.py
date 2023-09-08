@@ -31,7 +31,7 @@ async def get_info(slack_name: str, track_name: str):
         "track": track_name,
         "file_github_url": file_github_url,
         "source_code_github_url": source_code_github_url,
-        "status_code": "Success"
+        "status_code": "200"
     }
 
     return response_data
