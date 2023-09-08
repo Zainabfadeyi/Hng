@@ -20,8 +20,9 @@ async def get_info(slack_name: str, track_name: str):
     current_utc_time_str = current_utc_time.strftime("%Y-%m-%d %H:%M:%S")
 
     # Replace these with your actual GitHub URLs
-    file_github_url = "https://github.com/Zainabfadeyi/Hng"
     source_code_github_url = "https://github.com/Zainabfadeyi/Hng/blob/main/main.py"
+    file_github_url = "https://github.com/Zainabfadeyi/Hng"
+    
 
     # Create the response JSON
     response_data = {
