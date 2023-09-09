@@ -39,11 +39,11 @@ async def get_info(slack_name: str, track: str):
     # Create the response JSON
     response_data = {
         "slack_name": slack_name,
-        "current_day_of_week": current_day_of_week,
-        "utc time": current_utc_time_str,
+        "current_day": current_day_of_week,
+        "utc_time": current_utc_time_str,
         "track": track,
-        "github file url": source_code_github_url,
-        "github repo url": file_github_url,
+        "github_file_url": source_code_github_url,
+        "github_repo_url": file_github_url,
         "status_code": 200
     }
 
