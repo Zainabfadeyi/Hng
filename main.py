@@ -27,8 +27,6 @@ async def get_info(slack_name: str, track: str):
 
     # Get the current UTC time with validation of +/-2 hours
     current_utc_time = datetime.utcnow()
-    utc_offset = timedelta(hours=2)  # Adjust the offset as needed
-    current_utc_time += utc_offset
     current_utc_time_str = str(current_utc_time.strftime("%Y-%m-%dT%H:%M:%SZ"))
 
     # Replace these with your actual GitHub URLs
