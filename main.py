@@ -40,10 +40,10 @@ async def get_info(slack_name: str, track: str):
     response_data = {
         "slack_name": slack_name,
         "current_day_of_week": current_day_of_week,
-        "current_utc_time": current_utc_time_str,
+        "utc time": current_utc_time_str,
         "track": track,
-        "source_code_github_url": source_code_github_url,
-        "file_github_url": file_github_url,
+        "github file url": source_code_github_url,
+        "github repo url": file_github_url,
         "status_code": 200
     }
 
